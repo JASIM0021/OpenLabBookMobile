@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Get the local IP address dynamically
+LOCAL_IP=$(ifconfig | grep "inet " | grep -v 127.0.0.1 | awk '{ print $2 }')
+
+# Define the environment variable to update
+ENV_VARIABLE="LOCAL_URL"
+
+# Define the .env file path
+ENV_FILE=".env"
+
+# Check if the .env file exists
+if [ -f "$ENV_FILE" ]; then
+  # Check if the environment variable exists in the .env file
+  if grep -q "^$ENV_VARIABLE=" "$ENV_FILE"; then
+    # Update the existing environment variable
+    sed -i.bek "s|^$ENV_VARIABLE=.*|$ENV_VARIABLE=http://$LOCAL_IP:3000/api/v1/" "$ENV_FILE"
+  else
+    # Add the environment variable if it does not exist
+    echo "$ENV_VARIABLE=http://$LOCAL_IP:3000/api/v1/" >> "$ENV_FILE"
+  fi
+  echo "Updated $ENV_VARIABLE in $ENV_FILE with http://$LOCAL_IP"
+else
+  echo "$ENV_FILE does not exist. Creating $ENV_FILE and adding $ENV_VARIABLE."
+  echo "$ENV_VARIABLE=http://$LOCAL_IP:3000/api/v1/" > "$ENV_FILE"
+fi
+

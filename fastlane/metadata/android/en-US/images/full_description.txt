@@ -1,0 +1,15 @@
+<b>OpenLabBookMobile</b> is an open-source medical test booking app that simplifies diagnostics and healthcare service access. Book lab tests, upload prescriptions, and get home care services—all from your mobile device.
+
+Whether you need a basic blood test or full diagnostic care, OpenLabBookMobile connects you with trusted labs and professionals, offering up to 30% discounts and home sample collection.
+
+<b>Key Features:</b>
+
+- 📅 Book Appointments: Schedule lab tests at your preferred diagnostic center.
+- 💊 Prescription Upload: Just upload your doctor's prescription—we'll book the tests for you.
+- 🏠 Home Health Services: Includes sample collection, doctor consultations, physiotherapy, and elderly care.
+- 🔒 Secure & Private: Your health data is encrypted and handled with care.
+- 🌐 Open Source: Fully transparent, community-driven project.
+
+Ideal for patients, caregivers, and healthcare providers looking for a fast, reliable, and affordable medical test booking experience.
+
+Built with privacy and simplicity in mind, OpenLabBookMobile is your companion for seamless diagnostics.

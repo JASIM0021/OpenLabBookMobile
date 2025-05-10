@@ -1,0 +1,83 @@
+{
+  "expo": {
+    "name": "APP_NAME",
+    "slug": "OpenLabBookMobile",
+    "scheme": "OpenLabBookMobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "plugins": [
+        [
+          "expo-image-picker",
+          {
+            "photosPermission": "The app accesses your photos to let you share them with your friends."
+          }
+        ],
+        [
+          "expo-location",
+          {
+            "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+          }
+        ],
+        [
+          "expo-quick-actions",
+          {
+            "androidIcons": {
+              "shortcut_compose": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#EA3323"
+              },
+              "shortcut_one": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#282A35"
+              },
+              "shortcut_two": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#ff0000"
+              },
+              "shortcut_three": "https://pbs.twimg.com/media/F_5j5ufWEAA5aaP?format=jpg&name=large"
+            },
+            "iosIcons": {
+              "shortcut_one": "./assets/adaptive-icon.png",
+              "shortcut_two": {
+                "1x": "./assets/adaptive-icon.png"
+              }
+            },
+            "iosActions": [
+              {
+                "id": "1",
+                "title": "Shortcut One",
+                "subtitle": "Subtitle One",
+                "icon": "shortcut_one",
+                "params": {
+                  "url": "https://baconbrix.com"
+                }
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.health.OpenLabBookMobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.health.OpenLabBookMobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-quick-actions"]
+  }
+}

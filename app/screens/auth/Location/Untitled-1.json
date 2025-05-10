@@ -1,0 +1,130 @@
+{
+  "serviceName": "'Book Directly Using Prescription",
+  "description": "Directly book by uploading your prescription",
+  "navigationScreen": "patient_details",
+  "serviceContactNumber": "+91 81161 82108",
+  "servicePhoto": "https://example.com/plumbing.jpg",
+  "serviceCoverAreaAddress": "Purba Bardhaman"
+}
+
+{
+  "organizationCode": "O-0002",
+  "testCode": "343434skkdd",
+  "testName": "White Grain  YuuuP2P458hhh3",
+  "coverAddress": [
+    "Purba Bardhaman"
+  ],
+  "sample": "Blood",
+  "mrp": 1200,
+  "organizationTiming": [
+    {
+      "day": "Monday",
+      "startTime": "08:00 AM",
+      "endTime": "06:00 PM"
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "08:00 AM",
+      "endTime": "06:00 PM"
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "08:00 AM",
+      "endTime": "06:00 PM"
+    },
+    {
+      "day": "Thursday",
+      "startTime": "08:00 AM",
+      "endTime": "06:00 PM"
+    },
+    {
+      "day": "Friday",
+      "startTime": "08:00 AM",
+      "endTime": "06:00 PM"
+    },
+    {
+      "day": "Saturday",
+      "startTime": "08:00 AM",
+      "endTime": "02:00 PM"
+    }
+  ],
+  "organizationAddress": "123 Health Street, Wellness City, 98765",
+  "isHomeServiceAvailable": true,
+  "services": [
+    {
+      "serviceName": "Book a Test and Diagnostic Appointment",
+      "serviceRef": "673e25367f5371dd5b96b5b8"
+    }
+  ]
+}
+
+
+"_id": "673e364fdecf502c5c6c9b15",
+            "testCode": "343434skkdd",
+            "testName": "White Grain  YuuuP2P458hhh3",
+            "sample": "Blood",
+            "mrp": 1200,
+            "organizationName": "HealthCare Plus",
+            "organizationCode": "O-0002",
+            "organizationContactNumber": "+1234567890",
+            "organizationPhoto": "https://example.com/photo.jpg",
+
+{
+  "organization": "66e662d6a703ed44bec9ab5b", // optional
+  "paymentStatus": "PAID",// optional , UNPAID
+  "paymentType":"CASH" // CARD 
+  "notes": "Patient prefers morning appointments.",// optional
+  "review": "Excellent service.",// review 
+  "reportPhoto": "https://example.com/report-photo.jpg",// optional
+  "prescriptionPhoto": "https://example.com/prescription-photo.jpg",// optional
+  "patientInfo": {
+    "name": "John Doe",
+    "contactNumber": "+1234567890",
+    "age": 30,
+    "sex": "MALE",
+    "referBy": "Dr. Smith",// optional
+    "pinCode": "123456",
+    "address": "123 Elm Street, Springfield, IL",
+    "prescription": [
+      "Medicine A",
+      "Medicine B"
+    ] // optional
+  },
+  "medicalTestLists": [
+    {
+     "testCode": "343434skkdd",
+            "testName": "White Grain  YuuuP2P458hhh3",
+            "sample": "Blood",
+            "mrp": 1200,
+            "organizationName": "HealthCare Plus",
+            "organizationCode": "O-0002",
+      "appointmentTiming": {
+        "day": "Monday",
+        "startTime": "09:00",
+        "endTime": "10:00"
+      } // optional
+    }
+
+    
+  ]
+}
+
+
+{
+  "organization": "6739f2216b3923f42c59ad8e",
+  "paymentStatus": "PAID",
+    "paymentType":"CASH"  ,
+  "review": "Excellent service.",
+  "patientInfo": {
+    "name": "John Doe",
+"email":"skjasimuddin@gmail.com",
+    "contactNumber": "+1234567890",
+    "age": 30,
+    "sex": "MALE",
+  
+    "pinCode": "123456",
+    "address": "123 Elm Street, Springfield, IL"
+   
+  },
+ 
+}
