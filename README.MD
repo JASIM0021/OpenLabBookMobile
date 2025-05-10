@@ -58,7 +58,7 @@ npx react-native run-android # or run-ios
 
 ## Folder Structure
 
-- **`/src`**: Contains the source code for the application.
+- **`/app`**: Contains the source code for the application.
   - **`/components`**: Reusable components.
   - **`/screens`**: Different screens or pages of the application.
   - **`/redux`**: Redux-related files (actions, reducers, sagas).
