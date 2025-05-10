@@ -1,103 +1,60 @@
-# OpenLabBookMobile (Health)
+# OpenLabBookMobile
 
-## Overview
+**OpenLabBookMobile** is the official open-source mobile app for OpenLabBook — a seamless platform for booking medical diagnostic tests online with ease. Get lab tests, home health services, and more with just a few taps.
 
-**OpenLabBookMobile (Health)** is a React Native application designed to provide various health-related functionalities. This project leverages the Expo framework and integrates various libraries for state management, navigation, and UI components.
+- **Supported server versions:** OpenLabBook API v1+
+- **Supported iOS versions**: 13.0+
+- **Supported Android versions**: 6.0+
 
-## Features
+---
 
-- **Navigation**: Built with `react-navigation` for a smooth user experience.
-- **State Management**: Utilizes `redux` and `redux-saga` for managing application state and handling side effects.
-- **Forms**: `formik` and `yup` are used for handling form state and validation.
-- **UI Components**: `react-native-paper` and `react-native-vector-icons` are used for styling and icons.
-- **Image Handling**: Includes `expo-image-picker` for selecting images and `react-native-reanimated-carousel` for creating carousels.
-- **Location Services**: Integrated with `expo-location` for location-based features.
-- **Offline Storage**: Uses `@react-native-async-storage/async-storage` for local data storage.
+## 📲 Download
 
-## Getting Started
+<a href="https://play.google.com/store/apps/details?id=com.openlabbook.mobile">
+  <img alt="Download on Google Play" src="https://play.google.com/intl/en_us/badges/images/badge_new.png" height=43>
+</a>
+<a href="https://apps.apple.com/app/id0000000000">
+  <img alt="Download on App Store" src="https://user-images.githubusercontent.com/7317008/43209852-4ca39622-904b-11e8-8ce1-cdc3aee76ae9.png" height=43>
+</a>
+
+---
+
+## 🚀 Features
+
+- 📅 Book Appointments: Schedule lab tests at your preferred diagnostic centre.
+- 💊 Prescription Upload: Upload your doctor's prescription—we'll book the tests for you.
+- 🏠 Home Health Services: Includes sample collection, doctor consultations, physiotherapy, and elderly care.
+- 🔒 Secure & Private: Your health data is encrypted and handled carefully.
+- 🌐 Open Source: Fully transparent, community-driven project.
+
+---
+
+## 🛠 Installation & Setup
 
 ### Prerequisites
 
-- Node.js (>= 14.x)
-- Yarn (>= 4.x) or npm
+- Node.js (v18+)
+- Expo + React Native CLI
+- Android Studio + Xcode
+- OpenLabBook API credentials
 
-### Installation
+### Run the app locally
 
-1. **Clone the repository**:
+```curl
+git clone https://github.com/JASIM0021/OpenLabBookMobile.git
+```
 
-   ```bash
-   git clone https://github.com/your-username/OpenLabBookMobile.git
-   ```
+```curl
+cd OpenLabBookMobile
+```
 
-2. **Navigate to the project directory**:
+```curl
+npm install
+```
 
-   ```bash
-   cd OpenLabBookMobile
-   ```
-
-3. **Install dependencies**:
-
-   ```bash
-   yarn install
-   ```
-
-   or
-
-   ```bash
-   npm install
-   ```
-
-### Running the Application
-
-To start the development server and run the app on different platforms, use the following commands:
-
-- **Start the project**:
-
-  ```bash
-  yarn start
-  ```
-
-  or
-
-  ```bash
-  npm start
-  ```
-
-- **Run on Android**:
-
-  ```bash
-  yarn android
-  ```
-
-  or
-
-  ```bash
-  npm run android
-  ```
-
-- **Run on iOS**:
-
-  ```bash
-  yarn ios
-  ```
-
-  or
-
-  ```bash
-  npm run ios
-  ```
-
-- **Run on Web**:
-
-  ```bash
-  yarn web
-  ```
-
-  or
-
-  ```bash
-  npm run web
-  ```
+```curl
+npx react-native run-android # or run-ios
+```
 
 ## Folder Structure
 
@@ -109,21 +66,24 @@ To start the development server and run the app on different platforms, use the 
   - **`/utils`**: Utility functions and constants.
 - **`/assets`**: Contains images, icons, and other static resources.
 
-## Technologies Used
+📸 Screenshots
+<img src="assets/screens/home.png" width="200" />
+<img src="assets/screens/booking.png" width="200" />
+<img src="assets/screens/upload.png" width="200" />
 
-- **React Native**: 0.73.6
-- **Expo**: 50.0.14
-- **React Navigation**: 6.1.7
-- **Redux**: 9.1.0
-- **Redux Saga**: 1.3.0
-- **Formik**: 2.4.5
-- **Yup**: 1.4.0
-- **React Native Reanimated**: 3.6.2
-- **React Native Reanimated Carousel**: 3.5.1
+## 📚 Documentation
 
-## Contributing
+- Check out our full documentation and API reference at
+- ➡️ [documentaion](https://github.com/JASIM0021/OpenLabBookMobile/doc)
 
-If you want to contribute to the project, follow these steps:
+## 🐛 Reporting Issues
+
+- Please use GitHub [Issues](<[url](https://github.com/JASIM0021/OpenLabBookMobile/issues)>) to report bugs, request features, or suggest enhancements.
+
+## 🤝 Contributing
+
+- Want to contribute? Awesome!
+  If you want to contribute to the project, follow these steps:
 
 1. **Fork the repository**.
 2. **Create a new branch**:
@@ -147,13 +107,27 @@ If you want to contribute to the project, follow these steps:
 
 6. **Create a new Pull Request**.
 
-## License
+- Check out our Contribution Guide to get started. We welcome developers, designers, testers, and translators.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🧪 Whitelabel / Custom Branding
+
+- Want to deploy this app under your own lab or hospital brand?
+
+- Follow our [White-labeling](https://github.com/JASIM0021/OpenLabBookMobile/white-label.md) guide.
+
+💬 Join the Community
+📣 Discussions
+
+💬 Telegram Group
+
+🌐 Website
+
+📰 Subscribe for Updates
+Stay in the loop! Join our newsletter for updates about features, releases, and healthcare innovations.
 
 ## Contact
 
 For any questions or inquiries, please contact:
 
-- **Email**: skjasimuddin9153@example.com
-- **GitHub**: [your-username](https://github.com/jasim0021)
+- **Email**: skjasimuddin9153@gmail.com
+- **GitHub**: [JASIM0021](https://github.com/jasim0021)
