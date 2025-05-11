@@ -85,9 +85,9 @@ npx react-native run-android # or run-ios
 |---------------------------|---------------|---------------|
 | ![Order Confirmation](fastlane/metadata/android/en-US/images/ss10.png) | ![Order History](fastlane/metadata/android/en-US/images/ss11.png) | ![Order Details](fastlane/metadata/android/en-US/images/ss12.png) |
 
-| App Info | _ | _ |
-|----------|
-| ![App Info](fastlane/metadata/android/en-US/images/ss13.png) | []() | []() |
+| App Info | | |
+|----------|----------|----------|
+| ![App Info](fastlane/metadata/android/en-US/images/ss13.png) | | |
 
 ## 📚 Documentation
 
