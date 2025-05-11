@@ -6,10 +6,10 @@ import AsyncStorage from '../../helper/AsyncStorage';
 // let url=
 let url = {
   // http://192.168.114.113
-  url_dev: 'http://192.168.15.101:5001/api/v1/',
+  url_dev: 'http://localhost:5001/api/v1/',
   url_prod: 'http://43.204.234.134:5001/api/v1/',
 };
-let API_URL = url[__DEV__ ? 'url_prod' : 'url_prod'];
+let API_URL = url[__DEV__ ? 'url_dev' : 'url_prod'];
 
 const globalApiSlice = createApi({
   reducerPath: 'erm',
