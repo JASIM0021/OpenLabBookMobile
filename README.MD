@@ -69,61 +69,25 @@ npx react-native run-android # or run-ios
 📸 Screenshots
 
 ### App Screenshots
+| Login Screen | OTP Input Screen | Location Permission |
+|--------------|------------------|---------------------|
+| ![Login Screen](fastlane/metadata/android/en-US/images/ss1.png) | ![OTP Input](fastlane/metadata/android/en-US/images/ss2.png) | ![Location Permission](fastlane/metadata/android/en-US/images/ss3.png) |
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss1.png" width="200" alt="Home Screen" />
-    <p>Login Screen</p>
-  </div>
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss2.png" width="200" alt="Lab Test Booking" />
-    <p>OTP Input Screen</p>
-  </div>
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss3.png" width="200" alt="Test Categories" />
-    <p>Location Permission</p>
-  </div>
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss4.png" width="200" alt="Test Details" />
-    <p>Home Screen First time</p>
-  </div>
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss5.png" width="200" alt="Cart View" />
-    <p>Login Screen (Selected Location)</p>
-  </div>
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss6.png" width="200" alt="Payment Screen" />
-    <p>Test Listing Screen</p>
-  </div>
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss7.png" width="200" alt="Order Confirmation" />
-    <p>Test add to Cart</p>
-  </div>
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss8.png" width="200" alt="Prescription Upload" />
-    <p>Checkout Screen</p>
-  </div>
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss9.png" width="200" alt="Home Services" />
-    <p>Payment Screen</p>
-  </div>
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss10.png" width="200" alt="Profile Screen" />
-    <p>Order Confirmation Screen</p>
-  </div>
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss11.png" width="200" alt="Order History" />
-    <p>Order History</p>
-  </div>
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss12.png" width="200" alt="Test Results" />
-    <p>Order Details</p>
-  </div>
-  <div>
-    <img src="fastlane/metadata/android/en-US/images/ss13.png" width="200" alt="Settings" />
-    <p>App Info</p>
-  </div>
-</div>
+| Home Screen First time | Login Screen (Selected Location) | Test Listing Screen |
+|------------------------|----------------------------------|---------------------|
+| ![Home Screen](fastlane/metadata/android/en-US/images/ss4.png) | ![Login Location](fastlane/metadata/android/en-US/images/ss5.png) | ![Test Listing](fastlane/metadata/android/en-US/images/ss6.png) |
+
+| Test add to Cart | Checkout Screen | Payment Screen |
+|------------------|-----------------|----------------|
+| ![Add to Cart](fastlane/metadata/android/en-US/images/ss7.png) | ![Checkout](fastlane/metadata/android/en-US/images/ss8.png) | ![Payment](fastlane/metadata/android/en-US/images/ss9.png) |
+
+| Order Confirmation Screen | Order History | Order Details |
+|---------------------------|---------------|---------------|
+| ![Order Confirmation](fastlane/metadata/android/en-US/images/ss10.png) | ![Order History](fastlane/metadata/android/en-US/images/ss11.png) | ![Order Details](fastlane/metadata/android/en-US/images/ss12.png) |
+
+| App Info |
+|----------|
+| ![App Info](fastlane/metadata/android/en-US/images/ss13.png) |
 
 ## 📚 Documentation
 
