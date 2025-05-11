@@ -67,9 +67,63 @@ npx react-native run-android # or run-ios
 - **`/assets`**: Contains images, icons, and other static resources.
 
 📸 Screenshots
-<img src="assets/screens/home.png" width="200" />
-<img src="assets/screens/booking.png" width="200" />
-<img src="assets/screens/upload.png" width="200" />
+
+### App Screenshots
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss1.png" width="200" alt="Home Screen" />
+    <p>Login Screen</p>
+  </div>
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss2.png" width="200" alt="Lab Test Booking" />
+    <p>OTP Input Screen</p>
+  </div>
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss3.png" width="200" alt="Test Categories" />
+    <p>Location Permission</p>
+  </div>
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss4.png" width="200" alt="Test Details" />
+    <p>Home Screen First time</p>
+  </div>
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss5.png" width="200" alt="Cart View" />
+    <p>Login Screen (Selected Location)</p>
+  </div>
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss6.png" width="200" alt="Payment Screen" />
+    <p>Test Listing Screen</p>
+  </div>
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss7.png" width="200" alt="Order Confirmation" />
+    <p>Test add to Cart</p>
+  </div>
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss8.png" width="200" alt="Prescription Upload" />
+    <p>Checkout Screen</p>
+  </div>
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss9.png" width="200" alt="Home Services" />
+    <p>Payment Screen</p>
+  </div>
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss10.png" width="200" alt="Profile Screen" />
+    <p>Order Confirmation Screen</p>
+  </div>
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss11.png" width="200" alt="Order History" />
+    <p>Order History</p>
+  </div>
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss12.png" width="200" alt="Test Results" />
+    <p>Order Details</p>
+  </div>
+  <div>
+    <img src="fastlane/metadata/android/en-US/images/ss13.png" width="200" alt="Settings" />
+    <p>App Info</p>
+  </div>
+</div>
 
 ## 📚 Documentation
 
