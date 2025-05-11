@@ -26,6 +26,8 @@
 - 🏠 Home Health Services: Includes sample collection, doctor consultations, physiotherapy, and elderly care.
 - 🔒 Secure & Private: Your health data is encrypted and handled carefully.
 - 🌐 Open Source: Fully transparent, community-driven project.
+🏥 Self-hosted Lab Test Booking: Deploy and manage your own OpenLabBook server.
+→ Reference Server: [OpenLabBookMobileServer](https://github.com/JASIM0021/OpenLabBookMobileServer)
 
 ---
 
